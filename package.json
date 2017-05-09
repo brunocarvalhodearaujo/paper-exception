@@ -1,0 +1,14 @@
+{
+  "name": "@paper/exception",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "scripts": {
+    "postinstall": "babel --no-babelrc src --out-dir src --plugins=transform-inline-imports-commonjs"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-inline-imports-commonjs": "^1.2.0",
+    "http-status": "^1.0.1",
+    "lodash": "^4.17.4"
+  }
+}
